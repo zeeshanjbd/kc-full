@@ -1,3 +1,14 @@
+## Note :-
+
+Also update DB credentials here api/config/.env.dev
+
+Run composer install on api root folder
+
+Make sure you run importer to import data
+http://api.cc.localhost/importer
+
+
+
 # Test task - Course catalog
 ## To do:
 
@@ -43,3 +54,4 @@ Traefik dashboard: http://127.0.0.1:8080/dashboard/#/
 DB credentials - look at the docker-compose.yml
 
 Api docs are in swagger.yml
+
