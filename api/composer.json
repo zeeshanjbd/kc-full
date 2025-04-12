@@ -1,0 +1,16 @@
+{
+  "name": "assignment/kc",
+  "description": "A simple PHP application.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "vlucas/phpdotenv": "^4.3",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
